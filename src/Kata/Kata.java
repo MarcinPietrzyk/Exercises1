@@ -7,7 +7,7 @@ public class Kata {
         return noS;
 //        return x.replace(" ", "");
     }
-
+// 2 Kata
     public static int[] digitize(long n) {
         String numString = String.valueOf(n);
         int [] digits = new int[numString.length()];
@@ -19,5 +19,23 @@ public class Kata {
         }
         return digits;
     }
+//  Good practise solution
+//    public class Kata {
+//        public static int[] digitize(long n) {
+//            return new StringBuilder().append(n)
+//                    .reverse()
+//                    .chars()
+//                    .map(Character::getNumericValue)
+//                    .toArray();
+//        }
+//    }
+
+//    Kata 3.
+
+        public static String removeChars(String str) {
+            return str.substring(1,str.length()-1);
+    }
+
 }
+
 
