@@ -17,6 +17,12 @@ public class Main {
         //    Kata.3
         Kata kata3 = new Kata();
         System.out.println(kata3.removeChars("FirstAndLastCharacter"));
+
+        //        Kata.4
+        Sort kata4 = new Sort();
+        int[] numbers = {3,2,5,4};
+        System.out.println(kata4.findSmallestInt(numbers));
+        
     }
 
 }
