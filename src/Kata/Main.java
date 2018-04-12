@@ -1,4 +1,5 @@
 package Kata;
+
 import java.util.Arrays;
 
 public class Main {
@@ -22,7 +23,12 @@ public class Main {
         Sort kata4 = new Sort();
         int[] numbers = {3,2,5,4};
         System.out.println(kata4.findSmallestInt(numbers));
-        
+
+//        Kata.5
+        Haystack kata5 = new Haystack();
+        Object[] tab = new Object[]{"hay", "junk", "hay", "hay","needle",};
+        System.out.println(kata5.findNeedle(tab));
+
     }
 
 }
